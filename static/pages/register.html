@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <ul>
+            <li><a href="/">main</a></li>
+            <li><a href="/login">login</a></li>
+            <li><a href="/register">register</a></li>
+            <li><a href="/admin">admin</a></li>
+        </ul>
+    </div>
+    <div class="text">
+        <p>Register page</p>
+    </div>
+    <div class="form">
+        <form action="/zarejestruj" method="POST">
+            Login: <input type="text" id="login" name="login"></br></br>
+            Password: <input type="password" id="pass" name="pass"></br></br>
+            Wiek: <select name="wiek" id="wiek">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select></br></br>
+            Uczeń?: <input type="checkbox" id="uczen" name="uczen" value="checked"></br></br>
+            Płeć: <input type="radio" id="plec" name="plec" value="K"> K
+            <input type="radio" id="plec" name="plec" value="M"> M </br></br>
+            <button type="submit" value="Submit">Zarejestruj się</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
